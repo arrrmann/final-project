@@ -1,0 +1,93 @@
+.mainPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #1D2125;
+    color: white;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.brandName {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.brandX {
+    color: rgb(90, 99, 224);
+    display: inline-block;
+    margin-left: 0.3em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.brandX2{
+    color: rgb(90, 99, 224);
+    display: inline-block;
+    margin-left: 0.1em;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.button {
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: rgb(90, 99, 224);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    background: url('./2.webp') center/cover no-repeat fixed;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5rem;
+    max-width: 500px;
+    margin-top: 3rem;
+}
+
+.p {
+    display: block;
+    font-size: 3rem;
+    line-height: 1.25;
+}
+
+.span{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.btnGetstarted{
+    margin-top: 2rem;
+    margin-left: 0;
+}

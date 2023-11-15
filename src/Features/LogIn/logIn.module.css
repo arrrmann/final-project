@@ -1,0 +1,160 @@
+.registerPageWrapper {
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.sign {
+    font-size: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: rgb(90, 99, 224);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(90, 99, 224);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.iconBtnG{
+    background: #ff8f8f;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-size: 24px;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.iconBtnG:hover{
+    background: #ff4040;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.iconBtnG span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBtnGIT{
+    background: #b891ff;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-size: 24px;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.iconBtnGIT:hover{
+    background: #8a4aff;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.iconBtnGIT span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerInput{
+    padding: 5px 10px 5px 0;
+    margin-top: 10px;
+
+}
+
+.registerInput label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comicButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.comicButton:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comicButton:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.comicButtonGitHub{
+    background-color: #8052ff;
+}
+
+.comicButtonGitHub:hover{
+    color: #8052ff;
+    border: 2px solid #8052ff;
+    box-shadow: 5px 5px 0px #8052ff;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(90, 99, 224);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.registerInput input{
+    display: block;
+    outline: none;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
