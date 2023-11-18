@@ -1,0 +1,60 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10px;
+}
+
+.questionContainer {
+    position: relative;
+    margin-left: 10px;
+}
+
+.questionIcon {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right:-200%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionBtn{
+    background-color:rgb(90, 99, 224);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.questionBtn:hover{
+    background-color:rgb(33, 46, 228);
+}

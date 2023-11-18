@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import SignIn from 'Features/SignIn';
+import SignIn from 'Features/SignInWGoogle';
 import styles from './logIn.module.css'
 import { FaGithub } from "react-icons/fa6";
 

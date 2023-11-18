@@ -1,0 +1,81 @@
+.header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.brandName {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.brandX a{
+    color: rgb(90, 99, 224);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0.3em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navItem {
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.dropdownMenu li {
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.btn {
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: rgb(90, 99, 224);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.searchWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

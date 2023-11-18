@@ -4,7 +4,7 @@ import styles from './signin.module.css'
 import { auth } from 'Features/FireBase/firebase';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
-const SignIn: React.FC = () => {
+const SignInWGoogle: React.FC = () => {
 
 
     const signIn = async () => {
@@ -22,4 +22,4 @@ const SignIn: React.FC = () => {
     )
 }
 
-export default SignIn
+export default SignInWGoogle
