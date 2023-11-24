@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import SignIn from 'Features/SignInWGoogle';
+import SignInWGithub from 'Features/SignInWGithub';
+import SignInWGoogle from 'Features/SignInWGoogle';
 import styles from './logIn.module.css'
-import { FaGithub } from "react-icons/fa6";
+
 
 const LogIn: React.FC = () => {
     return (
         <div className={styles.registerPageWrapper}>
             <h1 className={styles.sign}>Welcome back</h1>
             <div className={styles.icons}>
-                <SignIn/>
-                <button className={`${styles.comicButton} ${styles.comicButtonGitHub}`}><FaGithub /></button>
+                <SignInWGoogle/>
+                <SignInWGithub/>
             </div>
             <div className="register-form">
                 <div className={styles.registerInput}>

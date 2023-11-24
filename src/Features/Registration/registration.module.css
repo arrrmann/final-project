@@ -18,98 +18,12 @@
     border-bottom: 1px solid rgb(90, 99, 224);
 }
 
-.comicButton {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: #ff5252;
-    border: 2px solid #000;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px #000;
-    transition: all 0.3s ease;
-    position: relative;
-    cursor: pointer;
-}
-
-.comicButton:hover {
-    background-color: #fff;
-    color: #ff5252;
-    border: 2px solid #ff5252;
-    box-shadow: 5px 5px 0px #ff5252;
-}
-
-.comicButton:active {
-    background-color: #fcf414;
-    box-shadow: none;
-    transform: translateY(4px);
-}
-
-.comicButtonGitHub{
-    background-color: #8052ff;
-}
-
-.comicButtonGitHub:hover{
-    color: #8052ff;
-    border: 2px solid #8052ff;
-    box-shadow: 5px 5px 0px #8052ff;
-}
-
 .icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
     margin: 0px auto;
-}
-
-.iconBtnG {
-    background: #ff8f8f;
-    border-radius: 5px;
-    width: 80px;
-    height: 30px;
-    font-size: 24px;
-    border: none;
-    color: white;
-    transition: all 0.5s;
-}
-
-.iconBtnG:hover {
-    background: #ff4040;
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.iconBtnG span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iconBtnGIT {
-    background: #b891ff;
-    border-radius: 5px;
-    width: 80px;
-    height: 30px;
-    font-size: 24px;
-    border: none;
-    color: white;
-    transition: all 0.5s;
-}
-
-.iconBtnGIT:hover {
-    background: #8a4aff;
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.iconBtnGIT span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .registerInput {

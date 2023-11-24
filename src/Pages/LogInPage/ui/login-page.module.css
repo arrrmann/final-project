@@ -4,5 +4,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url('../../MainPage/ui/2.webp')center/cover no-repeat fixed;
+    background-image: linear-gradient(to right top, #b9bcdf, #c8c0e2, #d6c4e3, #e2c9e4, #eecee5, #ebd2eb, #e9d7f1, #e6dbf5, #d4e0f8, #c9e3f2, #c6e5e8, #cce4dd);
 }

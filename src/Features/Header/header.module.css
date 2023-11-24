@@ -1,4 +1,5 @@
 .header {
+    position: sticky;
     background-color: #333;
     padding: 10px;
     display: flex;
@@ -19,8 +20,8 @@
     gap: 20px;
 }
 
-.icon{
-    cursor: pointer;
+.navItem {
+    color: #fff;
 }
 
 .brandName {
@@ -37,12 +38,22 @@
     font-weight: bold;
 }
 
-.navItem {
-    color: #fff;
-}
-
 .dropdown {
     position: relative;
+}
+
+.navItemWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropdownMenu {

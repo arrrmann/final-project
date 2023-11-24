@@ -31,7 +31,7 @@
     font-weight: bold;
 }
 
-.brandX2{
+.brandX2 {
     color: rgb(90, 99, 224);
     display: inline-block;
     margin-left: 0.1em;
@@ -62,7 +62,13 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 2em;
-    background: url('./2.webp') center/cover no-repeat fixed;
+    background-image: linear-gradient(to right top, #b9bcdf, #c8c0e2, #d6c4e3, #e2c9e4, #eecee5, #ebd2eb, #e9d7f1, #e6dbf5, #d4e0f8, #c9e3f2, #c6e5e8, #cce4dd);
+}
+
+.firstBlockWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .welcome {
@@ -81,13 +87,27 @@
     line-height: 1.25;
 }
 
-.span{
+.span {
     display: block;
     font-size: 1.5rem;
     margin-top: 0.5rem;
 }
 
-.btnGetstarted{
+.btnGetstarted {
     margin-top: 2rem;
     margin-left: 0;
 }
+
+.Saly {
+    width: 500px;
+}
+
+.SalyBG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 40% 60% 23% 77% / 49% 32% 68% 51% ;
+    background-color: rgb(90, 99, 224);
+}
+

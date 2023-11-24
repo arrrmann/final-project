@@ -5,8 +5,6 @@ import { auth } from 'Features/FireBase/firebase';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 const SignInWGoogle: React.FC = () => {
-
-
     const signIn = async () => {
         const provider = new GoogleAuthProvider()
 

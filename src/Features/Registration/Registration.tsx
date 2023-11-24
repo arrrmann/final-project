@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import SignInWGoogle from 'Features/SignInWGoogle';
+import SignInWGithub from 'Features/SignInWGithub';
 import styles from './registration.module.css'
-import {FaGithub} from "react-icons/fa6";
+
 
 const Registration: React.FC = () => {
     return (
@@ -10,7 +11,7 @@ const Registration: React.FC = () => {
             <h1 className={styles.sign}>Sign up</h1>
             <div className={styles.icons}>
                 <SignInWGoogle/>
-                <button className={`${styles.comicButton} ${styles.comicButtonGitHub}`}><FaGithub /></button>
+                <SignInWGithub/>
             </div>
             <div className="register-form">
                 <div className={styles.registerInput}>

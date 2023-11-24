@@ -33,7 +33,10 @@ const Header: React.FC<RegistrationProps> = ({handleSignOut, user}) => {
             </li>
 
             <li className={`${styles.navItem} ${styles.dropdown}`}>
-              <span onClick={toggleWorkspaceDropdown}>Workspace <FaAngleDown className={styles.icon}/></span>
+              <div className={styles.navItemWrapper} onClick={toggleWorkspaceDropdown}>
+                <span>Workspace</span>
+                <div><FaAngleDown className={styles.icon}/></div>
+              </div>
               {workspaceDropdownVisible && (
                 <ul className={styles.dropdownMenu}>
                   <li>Current Workspace</li>
@@ -43,7 +46,10 @@ const Header: React.FC<RegistrationProps> = ({handleSignOut, user}) => {
             </li>
 
             <li className={`${styles.navItem} ${styles.dropdown}`}>
-              <span onClick={toggleLatestDropdown}>Latest <FaAngleDown className={styles.icon}/></span>
+              <div onClick={toggleLatestDropdown} className={styles.navItemWrapper}>
+                <span >Latest</span>
+                <div> <FaAngleDown className={styles.icon}/></div>
+              </div>
               {latestDropdownVisible && (
                 <ul className={styles.dropdownMenu}>
                   <li>Current Workspace</li>
