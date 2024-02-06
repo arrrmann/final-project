@@ -1,0 +1,31 @@
+.Card {
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(to right top, #b9bcdf, #c8c0e2, #d6c4e3, #e2c9e4, #eecee5, #ebd2eb, #e9d7f1, #e6dbf5, #d4e0f8, #c9e3f2, #c6e5e8, #cce4dd);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.Card::before {
+    width: 150px;
+    height: 150px;
+    content: '';
+    background: linear-gradient(to right, rgb(142, 110, 255), rgb(208, 195, 255));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    right: -25%;
+    top: -25%;
+}
+
+.Card:hover{
+    transform: rotate(-1deg) scale(1.05);
+}

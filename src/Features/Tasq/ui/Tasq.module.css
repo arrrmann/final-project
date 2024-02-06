@@ -1,0 +1,101 @@
+.taskName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.taskGroup{
+    background-color:#1D2125;
+    border-radius: 10px;
+    padding: 10px;
+    height: min-content;
+    width: 200px;
+}
+
+.taskGroup ul {
+    list-style: none;
+    padding: 0;
+    margin:5px;
+}
+
+.taskGroup li {
+    background-color:rgb(90, 99, 224);
+    margin: 0 0 0 0;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.addButton{
+    border: none;
+    cursor: pointer;
+    background:  transparent;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    transition: all 0.3s ease;
+}
+
+.addButton:hover{
+    background-color: #353d44;
+}
+
+.taskBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.taskBottomDiv{
+    margin: 0px 17px;
+}
+
+.copyButton{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #9FADBC;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+}
+.addNew{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 200px;
+}
+.addNew input{
+    background-color: #22272B;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    outline: none;
+}
+.addNew button{
+    background-color: rgb(90, 99, 224);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    width: 40%;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addNew button:hover{
+    background-color: rgb(134, 142, 250);
+}

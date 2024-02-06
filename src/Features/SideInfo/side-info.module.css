@@ -1,5 +1,69 @@
-.sideInfo{
-    height: 100vh;
-    background-color: rgb(43, 43, 43);
+.sideInfo {
+    height: calc(100vh - 63px);
+    display: inline-block;
+    background-color: #293036;
     width: 20%;
+    padding: 20px 10px;
+}
+
+.nameblock {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.nameblock h3 {
+    color: rgb(226, 226, 226);
+    font-size: 24px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.widgets{
+    margin: 30px 0px 10px 0px;
+    padding: 10px 0px;
+}
+
+.widgets h3{
+    color: rgb(226, 226, 226);
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.toolbtn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:rgb(226, 226, 226);
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.toolbtn:hover{
+    background-color: #394046;
+}
+
+.toolbtn a{
+    text-decoration: none;
+    color:rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    display: inline-block;
+    color: rgb(90, 99, 224);
+    font-size: 24px;
 }

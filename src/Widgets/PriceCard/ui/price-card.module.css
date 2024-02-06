@@ -1,0 +1,110 @@
+.packContainer {
+    position: relative;
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #2b3036;
+    border: 1px solid #fff;
+    padding: 1.6rem;
+    color: #fff;
+    box-shadow:  rgba(90, 99, 224, 0.5) 5px 5px,   rgba(52, 62, 201, 0.4) 10px 10px,   rgba(90, 99, 224, 0.2) 15px 15px,   rgba(90, 99, 224, 0.1) 20px 20px,   rgba(90, 99, 224, 0.05) 25px 25px;
+}
+
+.header {
+    position: relative;
+    margin: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.priceContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.priceContainer span:first-child {
+    margin-top: 10px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    
+}
+
+.priceContainer span:last-child {
+    align-self: flex-end;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color:  rgb(90, 99, 224);
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list span {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background-color: rgb(90, 99, 224);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list span svg {
+    height: 12px;
+    width: 12px;
+    color: #fff;
+}
+
+.list p {
+    display: block;
+    font-family: sans-serif;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.buttonContainer button {
+    display: block;
+    width: 100%;
+    background-color: rgb(90, 99, 224);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}

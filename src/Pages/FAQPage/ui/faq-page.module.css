@@ -1,0 +1,14 @@
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 60px 100px;
+    background-image: linear-gradient(to right top, #b9bcdf, #c8c0e2, #d6c4e3, #e2c9e4, #eecee5, #ebd2eb, #e9d7f1, #e6dbf5, #d4e0f8, #c9e3f2, #c6e5e8, #cce4dd);
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    padding:20px 0 20px 0;
+    color:  rgb(90, 99, 224);
+}

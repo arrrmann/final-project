@@ -1,0 +1,55 @@
+.main{
+    width: 85%;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 1px solid  #1D2125;
+    border-bottom:  1px solid  #1D2125;
+    margin-top: 20px;
+}
+
+.question{
+    margin: 8px 15px 8px 15px;
+    padding: 5px 5px 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.question p{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #1D2125;
+}
+
+.qmark{
+    display: inline-block;
+    margin: 0px 10px 0 2px;
+    color: rgb(90, 99, 224);
+    font-size: 35px;
+}
+
+.minplus{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    background-color: rgb(90, 99, 224);
+    color: white;
+    border-radius: 50%;
+}
+
+.answer{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px;
+    width: 100%;
+    min-height: 40px;
+}

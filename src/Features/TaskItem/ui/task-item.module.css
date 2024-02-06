@@ -1,0 +1,50 @@
+.ul li{
+    width: 100%;
+    height: 50px;
+}
+
+.bbutton{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #ffffff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.bbutton:hover{
+    background-color:  rgb(147, 153, 248);
+}
+
+.taskName input{
+    margin-top: 5px;
+    background-color: #282E33;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    outline:  #1D2125;
+    background-color:  rgb(90, 99, 224);
+}
+
+.taskName p{
+    color: white;
+
+}
+
+.taskName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
